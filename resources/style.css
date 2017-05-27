@@ -1,0 +1,105 @@
+@font-face {
+    src: url("file:resources/bpg_glaho.ttf");
+}
+.label{
+	-fx-font-family: "BPG Glaho";
+	-fx-text-fill: #555555;
+}
+.button{
+	-fx-font-size: 14px;
+	-fx-cursor: hand;
+}
+.button:hover{
+	-fx-font-size: 14px;
+}
+.text-field{
+	-fx-font-family: "BPG Glaho";
+	-fx-text-fill: #555555;
+}
+.password-field{
+	-fx-text-fill: #555555;
+}
+#mySubmitButton{
+	-fx-font-family: "BPG Glaho";
+	-fx-background-color: #ff3b3f;
+	-fx-text-fill: #ffffff;
+	-fx-cursor: hand;
+}
+#pageTitle{
+	-fx-font-size: 14px;
+}
+#searchButton{
+	-fx-font-family: "BPG Glaho";
+	-fx-background-color: #ff3b3f; 
+	-fx-text-fill: #ffffff; 
+	-fx-cursor: hand;
+	-fx-font-size: 12px;
+}
+.menu{
+	-fx-font-family: "BPG Glaho";
+	-fx-font-size: 14px;
+}
+.menu:hover{
+	-fx-background-color: #ff3b3f; 
+}
+.menu:focused{
+	-fx-background-color: #ff3b3f; 
+}
+.menu:showing{
+	-fx-background-color: #ff3b3f;
+}
+.menu:showing > .label{
+	-fx-background-color: #ff3b3f; 
+	-fx-text-fill: #ffffff;
+}
+.menu:hover > .label{
+	-fx-background-color: #ff3b3f; 
+	-fx-text-fill: #ffffff;
+}
+.menu-item:hover{
+	-fx-background-color: #ff3b3f; 
+}
+.menu-item:showing{
+	-fx-background-color: #ff3b3f; 
+}
+.menu-item:showing > .label{
+	-fx-background-color: #ff3b3f; 
+	-fx-text-fill: #ffffff;
+}
+.menu-item:hover .label{
+	-fx-background-color: #ff3b3f; 
+	-fx-text-fill: #ffffff; 
+}
+
+.menu-item:focused{
+	-fx-background-color: #ff3b3f; 
+}
+.menu-item:focused > .label{
+	-fx-background-color: #ff3b3f; 
+	-fx-text-fill: #ffffff;
+}
+
+.combo-box{
+	-fx-font-family: "BPG Glaho";
+}
+
+.table{
+	-fx-font-family: "BPG Glaho";
+}
+.table-row-cell{
+	-fx-font-family: "BPG Glaho";
+}
+.table-row-cell:selected {
+   -fx-background-color: #cccccc; 
+   -fx-fill: #555555;
+}
+.table-row-cell:selected .table-cell {
+	-fx-background-color: #cccccc;
+	-fx-text-fill: #555555;
+}
+.table-row-cell:selected .text {
+       -fx-fill: #555555;
+}
+.table-row-cell:selected .table-cell .label{
+	-fx-text-fill: #555555;
+}

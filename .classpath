@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="assets/fonts/|assets/images/|assets/json/|assets/pdfs/|assets/css/" kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="lib" path="src/lib/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="src/lib/itextpdf-5.1.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/apache-commons-net.jar"/>
+	<classpathentry kind="lib" path="src/lib/org-apache-commons-codec.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
